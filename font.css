@@ -1,48 +1,27 @@
-@font-face {
-    font-family: 'montserratmedium';
-    src: url('fonts/montserrat-medium-webfont.woff2') format('woff2'),
-         url('fonts/montserrat-medium-webfont.woff') format('woff');
+
+  @font-face {
+    font-family: 'Montserratmedium';
+    src: url('font500/montserrat-500-normal.woff2') format('woff2'), url('font500/montserrat-500-normal.woff') format('woff'), url('font500/montserrat-500-normal.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
+
 @font-face {
-    font-family: 'montserratregular';
-    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
-         url('fonts/montserrat-regular-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Montserratnormal';
+    src: url('font400/montserrat-400-normal.woff2') format('woff2'), url('font400/montserrat-400-normal.woff') format('woff'), url('font400/montserrat-400-normal.ttf') format('truetype');
+    font-weight: 400;
     font-style: normal;
 }
+
 @font-face {
-    font-family: 'montserratbold';
-    src: url('fonts/montserrat-bold-webfont.woff2') format('woff2'),
-         url('fonts/montserrat-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;   
-} 
-/*@font-face {
-    font-family: 'montserratbold';
-    src: url('fontsrus/montserrat-bold-webfont.woff2') format('woff2'),
-         url('fontsrus/montserrat-bold-webfont.woff') format('woff');
-    font-weight: bold;
+    font-family: 'Montserratbold';
+    src: url('font700/montserrat-700-normal.woff2') format('woff2'), url('font700/montserrat-700-normal.woff') format('woff'), url('font700/montserrat-700-normal.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
-
-}*/
-
-/*.collection__new {
-	font-family: 'montserratbold'
-	background: red;
-}
-.collection__dostavkafree {
-	font-family: 'montserratbold';
-	color: red;
 }
 
-.third__look {
-     font-family: 'montserratbold';
-}*/
 
 .locomain {
-     font-family: 'montserratmedium';
+     font-family: 'montserratbold';
      background: orange;
-     font-size: 20px;
-}
+ }
