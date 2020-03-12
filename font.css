@@ -1,5 +1,4 @@
-
-  @font-face {
+ @font-face {
     font-family: 'Montserratmedium';
     src: url('fonts/montserrat-500-normal.woff2') format('woff2'), url('fonts/montserrat-500-normal.woff') format('woff');
     font-weight: 500;
@@ -19,9 +18,5 @@
     font-weight: 700;
     font-style: normal;
 }
+ 
 
-
-.locomain {
-     font-family: 'montserratbold';
-     background: orange;
- }
