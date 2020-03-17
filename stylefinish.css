@@ -46,7 +46,7 @@
     cursor: pointer;
     }
 .box select {
-  	background: url("../finishwork12.02/img/leng.png") no-repeat right; 
+  	background: url("/img/leng.png") no-repeat right; 
     border: none;   
     font-family: 'montserratmedium';
     font-size: 20px;
