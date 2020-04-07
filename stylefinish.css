@@ -5,15 +5,13 @@
     max-height: 2700px;
     }
 .first{
+	height: 900px;
     background-image: -webkit-linear-gradient(left, black 32%, white 1%);
     background-image: -o-linear-gradient(left, black 32%, white 1%);
     background-image: linear-gradient(to right, black 32%, white 1%);
     display: grid;
     grid-template-columns: 3% 9% 42% 46%;
     grid-template-rows: 8% 18% 65% 9%;
-   /* max-height: 900px;
-    min-height: 584px;*/
-    height: 900px;
     }
     .mobile__first_background {
     	display: none;
@@ -212,9 +210,6 @@
     width: 148px;
     }
 .first{
-	max-height: 900px;
-    min-height: 584px;
-
     display: grid;
     grid-template-columns: 4% 47% 49%;
     grid-template-rows: 8% 18% 65% 9%;}
@@ -259,9 +254,10 @@
     }
 .first{
     background: url('img/imagesmall.png') 100% no-repeat;
-   
     background-size: 100%;
-    display: -ms-grid;
+    /*height: 584px;
+    min-height: 584px;
+*/    display: -ms-grid;
     display: grid;
     grid-template-columns: 81% 19%;
     grid-template-rows: 12% 60% 28%;
@@ -298,6 +294,9 @@
     display: block;
    }
    }
+   @media (max-width: 450px) {
+.first {height: 584px;}
+   }
 @media (max-width: 360px) {
 .first{
     background: url('img/imagesmall.png') 100% no-repeat;
@@ -311,12 +310,10 @@
     }
     }
 
-
-
 /*вторая секция */
 .second {
+	height: 900px;
    	width: 100%;
-   	height: 900px;
    	background: #FAE8E4;
     display: grid;
     grid-template-columns: 10% 6% 45% 39%;
@@ -444,14 +441,13 @@
     grid-template-rows: 10% 18% 72%; 
     }
 .second__aside__main {
-    	width: 90%;
+    width: 90%;
     }
     }
 
 @media ( max-width: 950px) {
 .second {
-	min-height: 597px;
-    grid-template-columns: 7% 87% 6%;
+	grid-template-columns: 7% 87% 6%;
     grid-template-rows: 55% 45%; 
     }
 .second__image_pink {
@@ -534,6 +530,10 @@
 		height: 283px;
 	}
 }
+@media (max-width: 420px) {
+	
+		.second {height: 597px;}
+	}
 
 
 /*третья секция*/
@@ -541,7 +541,7 @@
 .third {
     width: 100%;
     height: 900px;
-   	background: linear-gradient(to right, #EBE3D8 27%, black 10%, black 32%, #EBE3D8 10% );
+    background: linear-gradient(to right, #EBE3D8 27%, black 10%, black 32%, #EBE3D8 10% );
    	display: grid;
     grid-template-columns: 6% 50% 44%;
     grid-template-rows: 15% 13% 72%;
@@ -647,8 +647,7 @@
 		display: none;
 	}
 .third {
-	min-height: 597px;
-    display: grid;
+	display: grid;
     grid-template-columns: 0 100% 0;
     grid-template-rows: 55% 45%;
 }
@@ -713,6 +712,7 @@
     }
 @media (max-width: 525px) {
 .third {
+	height: 597px;
     grid-template-rows: 47% 53%;
     }	
 .third__image {
